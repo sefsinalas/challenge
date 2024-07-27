@@ -1,0 +1,8 @@
+Revision de BD -> DBTest
+Navegabilidad -> NavTest
+Completar formularios -> FormTest
+Validaciones en formularios y/o en acciones -> ValidationTest
+Chequear campos individuales (celdas de tables, valores en Inputs, labels) -> DataTest
+Chequear acciones de un datatable -> DatatableTest
+Varios, sin terminación -> Test
+Chequear status y estructura de una respuesta JSON o no -> ResponseTest

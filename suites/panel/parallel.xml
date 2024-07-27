@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--<suite name="ParallelSuite" parallel="classes">-->
+<suite name="ParallelSuite">
+    <listeners>
+        <listener class-name="utils.ZephyrListener" />
+        <listener class-name="utils.ZephyrSyncCompleteSuiteListener" />
+    </listeners>
+    <test name="ParallelSuite">
+        <classes>
+            <class name="UI.users.LoginTest" />
+            <class name="UI.users.Creation" />
+            <class name="UI.pdp.PDPDetailsDataTest" />
+            <class name="UI.example.EDDCartTest" />
+        </classes>
+    </test>
+</suite>
